@@ -338,7 +338,7 @@ static bool should_block_name(const char *name, int namlen)
 		F("memtrack.rc"),
 
 		/* Block pixelstats from starting */
-		F("pixelstats-vendor.zuma.rc"),
+                F("pixelstats-vendor.zumapro.rc"),
 
 #if !IS_ENABLED(CONFIG_TOUCHSCREEN_OFFLOAD)
 		/* Block twoshay from starting */
